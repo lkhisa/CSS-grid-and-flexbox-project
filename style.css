@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0;
+  font-size: 15px;
+  @font-face {
+    font-family: Lexend Deca;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+  }
+}
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.main-container {
+  display: flex;
+  width: 75%;
+  
+}
+@media screem and (max-width : 576px) {
+    .main-container {
+        width: 375px;
+    }
+}
+@media screem and (max-width : 1200px) {
+    .main-container {
+        width: 1440px;
+    }
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding-bottom: 20px;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding-bottom: 20px;
+    width: 100%;
+    padding-left: 20px;
+    align-items: center;
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding-bottom: 20px;
+    width: 100%;
+    padding-left: 20px;
+    align-items: center;
+}
+img {
+    padding-bottom: 20px;
+}
+h1, p{
+    padding-bottom: 20px;
+}
+
